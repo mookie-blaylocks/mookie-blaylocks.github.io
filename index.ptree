@@ -1,0 +1,5 @@
+#lang pollen
+
+index.html
+◊(dynamic-require "wasteland.ptree" 'doc)
+◊(dynamic-require "resume.ptree" 'doc)
