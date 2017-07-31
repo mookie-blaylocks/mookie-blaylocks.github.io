@@ -1,4 +1,5 @@
 #lang pollen
 
 ◊h1{Introduction}
-◊link["burial.html"]{Begin}
+◊link["wasteland/burial.html"]{Begin}
+◊link["resume/cv.html"]{My CV}
