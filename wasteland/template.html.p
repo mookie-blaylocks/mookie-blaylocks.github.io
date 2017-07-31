@@ -11,5 +11,7 @@
     ◊(define next-page (next here))
     ◊when/splice[next-page]{
     <div id="next"><a href="◊|next-page|">◊(select 'h1 next-page)</a> →</div>}
+    <p>◊(current-pagetree)</p>
+    <p>◊|here|</p>
   </body>
 </html>

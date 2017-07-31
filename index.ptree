@@ -1,5 +1,11 @@
-#lang pollen
+#lang pollen/ptree
 
 index.html
-◊(dynamic-require "wasteland.ptree" 'doc)
-◊(dynamic-require "resume.ptree" 'doc)
+◊wasteland.html{
+    wasteland/burial.html
+    wasteland/chess.html
+    wasteland/sermon.html
+    }
+◊resume.html{
+    resume/cv.html
+    }
